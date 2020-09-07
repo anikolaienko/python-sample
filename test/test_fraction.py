@@ -1,5 +1,5 @@
 import pytest
-from src.fraction import Fraction
+from src.modules.fraction import Fraction
 
 def test_repr():
     assert repr(Fraction(4, 5)) == "Fraction(4, 5, False)"
